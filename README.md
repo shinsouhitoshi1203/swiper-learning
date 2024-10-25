@@ -41,11 +41,13 @@ const swiper02 = new Swiper (
 ```
 
 ## 2. parameters for configuring objects
+> [!NOTE]
+> for the inputs of the parameter, remember to keep the inputs as much natural as they are. for instances, if you want to input **horizontal**, or **true**, or **123**, just type `'horizontal'`, `true` and `123`, respectively.
 
-|  parameter  |  input requirement  |  structures  | usages |  example |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-|  `direction` |  `'horizontal'` or `'vertical'` | `direction: 'horizontal' `  | indicate the direction of navigation  |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|  parameter  |  input requirement  |  usages  |  examples |
+| :------------: | :------------: | ------------ | :------------: |
+|  `direction` |  `'horizontal'` or `'vertical'` | indicate the direction of navigation  |   |
+|  `grabCursor` |  `boolean` |  allow to use the grab cursor during swiping, *highly recommended for UX* |   |
+|  `speed` |  `number (miliseconds)` |  determine the amount of time enough<br> to completely navigate to the next slide  |  |
+|  `watchOverflow` | `boolean`  |  decide if you want to keep sliding despite having only one slide | [click here](https://stackblitz.com/edit/stackblitz-starters-zdjfxz "click here") |
+|   |   |   | |
